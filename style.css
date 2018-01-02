@@ -1,0 +1,97 @@
+.time {
+  margin: auto;
+  width: 60px;
+  text-align: center;
+  background-color: #333;
+  z-index: 1; position:relative;
+  top: 115px;
+  font-size: 25px;
+  color: white;
+}
+.control {
+  margin: auto;
+  text-align: center;
+  width: 200px; 
+  height: 200px;
+  color: white;
+  padding-left: 10px; 
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #333;
+  border: none;
+  color: white;
+}
+.btn:hover {
+  background-color: #555;
+}
+.clock {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+  margin: auto;
+  position: relative;
+}
+.hours {
+  background: #fff;
+  height: 45%;
+  position: absolute;
+  left: 48%;
+  top: 0px;
+  width: 2%;
+  border-radius: 20%;
+}
+.increase {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50%;
+  float: left;
+  color: white;
+  margin: auto;
+}
+.decrease {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50%;
+  color: white;
+  float: left;
+  margin: auto;
+}
+.reset {
+  float: left;
+}
+.start {
+  float: left;
+  position: relative;
+}
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+/*@media screen and (max-width: 480px) {
+   .start {
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     padding-top: 12px;
+     border-radius: 50%;
+     z-index: 1;
+     top: 250px; 
+     left: 160px; 
+     background-color: #FF8900;
+     color: white;
+  }
+}*/
